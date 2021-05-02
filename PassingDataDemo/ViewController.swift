@@ -15,5 +15,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        
+        if let resultVC = (storyboard?.instantiateViewController(identifier: "dummyController"))! as DummyController? {
+            resultVC.dummyString = "Hello"
+            navigationController?.pushViewController(resultVC, animated: true)
+        }
+    }
 }
 
