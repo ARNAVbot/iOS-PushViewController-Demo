@@ -14,6 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        EventLogManager.shared.setDefaultLogProperties(appFlag: "yolo")
+//        if let window = (UIApplication.shared.delegate?.window)! as UIWindow? {
+//            window.backgroundColor = UIColor.red
+//        }
+        
+//        if UIWindowScene.self != nil {
+//            UIWindowScene.self.
+//        }
         return true
     }
 
