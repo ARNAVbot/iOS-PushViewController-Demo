@@ -68,6 +68,15 @@
                                     <action selector="dimissMe:" destination="IYZ-1x-nUN" eventType="touchUpInside" id="gY3-2E-cXj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEI-X6-Da0">
+                                <rect key="frame" x="139" y="610" width="137" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Add new subview"/>
+                                <connections>
+                                    <action selector="addNewsubview:" destination="IYZ-1x-nUN" eventType="touchUpInside" id="NjK-oT-DVU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z7W-KL-ni1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
